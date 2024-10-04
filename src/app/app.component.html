@@ -1,2 +1,6 @@
 <app-menu />
-<app-card-contact />
+<app-contact-form (contactCreated)="addContact($event)" />
+
+<div *ngFor="let contact of contacts">
+  <app-card-contact [contact]="contact"></app-card-contact>
+</div>
