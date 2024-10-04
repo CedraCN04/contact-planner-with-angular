@@ -9,7 +9,7 @@ import { Contact } from './models/contact';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, MenuComponent, CardContactComponent, CardContactComponent, ContactFormComponent],
+  imports: [ CommonModule, MenuComponent, CardContactComponent, ContactFormComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
